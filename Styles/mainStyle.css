@@ -1,0 +1,179 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+#mainHeader {
+    float:left;
+    width:100%;
+    height:15vh;
+    background-image:url("../Billeder/313.jpg");
+    background-repeat: repeat-x;
+    background-size: 20% 100%;
+    text-align: center;
+    font-size: 20px;
+}
+#asideContent {
+    padding-top:2vh;
+    width:20%;
+    height:82vh;
+    float:left;
+    background-image: linear-gradient(#6C757D, #D5D9DD);
+}
+#navGator {
+    background-color:#2C3339;
+    width:90%;
+    margin:auto;
+}
+#navList {
+    background-color:yellow;
+    font-size:20px;
+}
+.menuListItem {
+    background-color:aquamarine;
+}
+.menuBtns {
+    background-color:#454d54;
+    width:100%;
+    border:none;
+    font-size:20px;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+.menuBtns:hover {
+    background-color:#2C3339;
+}
+#mainContent {
+    width:80%;
+    height:84vh;
+    float:left;
+    background-color:#D5D9DD;
+}
+#histogramOverskrift {
+    display:block;
+}
+#grafImageWrapper {
+    text-align:center;
+    display:flex;
+    justify-content: center;
+    width:100%;
+    height:100%;
+}
+#histogramTable {
+    margin:auto;
+    border-collapse:collapse;
+    background-color: #8E9AA4;
+}
+#histoGramTableHeader {
+    padding-top:5px;
+    padding-bottom:5px;
+}
+#grafBillede {
+    width:600px;
+    height:330px;
+}
+#brugerListeTabel {
+    margin:auto;
+    border-collapse: collapse;
+    background-color: #8E9AA4;
+}
+.brugerListeHeader {
+    text-align:left;
+    padding-left:10px;
+    width:100px;
+}
+.brugerListeTableH4 {
+    margin-top:5px;
+    margin-bottom:5px;
+}
+.brugerListeTableTrs:nth-child(even) {
+    background-color: #b8bfc7;
+}
+.brugerListTableTds {
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+#mainSection {
+    background-color:#D5D9DD;
+    float:left;
+    height:81vh;
+    width:75%;
+    padding-top:15px;
+    overflow-y: auto;
+}
+.mainAsideSectionWrappers {
+    margin-bottom:20px;
+}
+#clockCanvas {
+    display:block;
+    margin:auto;
+    background-color:#454D54;
+}
+#mainAsideSection {
+    padding-top:2vh;
+    background-image: linear-gradient(#6C757D, #D5D9DD);
+    float:left;
+    width:25%;
+    height:80vh;
+}
+.mainAsideHeaders {
+    text-align:center;
+    font-weight:bold;
+    padding-top:5px;
+    padding-bottom:5px;
+    margin:auto;
+    background-color:#2C3339;
+    width:75%;
+}
+.mainAsideSections {
+    margin:auto;
+    background-color:#454D54;
+    width:75%;
+}
+.kildeLinks {
+    display:block;
+    width:100%;
+    text-align:center;
+    text-decoration: none;
+    font-size:15px;
+    color: black;
+}
+.asideHeaders {
+    font-weight:bold;
+    width:175px;
+    background-color:#2C3339;
+}
+#skoProcentTabel {
+    margin:auto;
+}
+#dataFormTable {
+    margin:auto;
+    background-color: #8E9AA4;
+    border-collapse: collapse;
+    width:50%;
+}
+#dataFormTableHeader {
+    text-align:center;
+}
+#dataformTableH4 {
+    margin-top:5px;
+    margin-bottom:5px;
+}
+#registrerBtn {
+    width:75%;
+    height:25px;
+}
+.dataFormTableTds {
+    padding-left:5px;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+.dataFormInputs {
+    width:75%;
+}
+.dataFormTableTrs:nth-child(even) {
+    background-color: #b8bfc7;
+}
+#dataFormTableFooter {
+    text-align:center;
+}

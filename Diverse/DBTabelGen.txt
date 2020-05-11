@@ -1,0 +1,8 @@
+CREATE TABLE brugerskodata (
+    Id int NOT NULL AUTO_INCREMENT,
+    Navn varchar(255) NOT NULL,
+    Email varchar(255) NOT NULL,
+    Alder int NOT NULL,
+    Skostørrelse int NOT NULL,
+    PRIMARY KEY (Id)
+);
